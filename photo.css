@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+/* Specific Page Styles */
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.featured-photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text h2{
+     align-items: center;
+     padding-left: 630px;
+}
+
+.featured-photos .photo {
+    width: 20%;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.featured-photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo-gallery .photo {
+    width: 20%;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
